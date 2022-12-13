@@ -1,2 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0m1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/michaelxie/Desktop/Hunter/CS_395/FunctionalRockPaperScissors/src/main/scala/michaelxie/rockpaperscissors/RockPaperScissorsCmdGame.scala:8:7: not a valid main method for michaelxie.rockpaperscissors.RockPaperScissorsCmdGame,[0m
+[0m[[0m[33mwarn[0m] [0m[0m  because main methods must have the exact signature `(Array[String]): Unit`, though Scala runners will forgive a non-Unit result.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  To define an entry point, please define the main method as:[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def main(args: Array[String]): Unit[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def main(args: Array[String]) = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

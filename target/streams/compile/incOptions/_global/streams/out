@@ -1,37 +1,17 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/michaelxie/Desktop/Hunter/CS_395/FunctionalRockPaperScissors/target/scala-2.13/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$SampleTournament$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$SampleTournament.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$SampleTournament$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$SampleTournament.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSRandomPlayer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AWins$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSPointsSchema$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Scissors$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tie.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSUnbiasedRandomMove$SimpleRPSUnbiasedRandomMove.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSPlayerSeasonSummary$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSHistoryBasedRandomPlayer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSMatch.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSUnbiasedRandomMove$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BWins.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Rock.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSDecider.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSResultsOutput.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSHistoryBasedPlayer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSPlayerSeasonSummary.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Paper$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSPlayer.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Rock$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSMove.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Tie$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	AWins.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Scissors.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSTournamentSeason.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSTournament.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSPointsSchema.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	BWins$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSTournamentSeason$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSUnbiasedRandomMove$SimpleRPSUnbiasedRandomMove$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Paper.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSUnbiasedRandomMove.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	RPSOutcome.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$SampleTournament$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$SampleTournament.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TournamentParser$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/michaelxie/Desktop/Hunter/CS_395/FunctionalRockPaperScissors/target/scala-2.13/classes.bak[0m

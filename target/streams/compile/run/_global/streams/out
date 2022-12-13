@@ -1,13 +1,13 @@
 [0m[[0m[31merror[0m] [0m[0mjava.util.NoSuchElementException: key not found: Rounds Per Match[0m
-[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.Map$Map1.apply(Map.scala:245)[0m
-[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.unpackNumber(TournamentParser.scala:174)[0m
-[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.$anonfun$unpack$1(TournamentParser.scala:143)[0m
-[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.$anonfun$unpack$1$adapted(TournamentParser.scala:142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.Map$Map3.apply(Map.scala:399)[0m
+[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.unpackNumber(TournamentParser.scala:135)[0m
+[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.$anonfun$unpack$1(TournamentParser.scala:118)[0m
+[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.$anonfun$unpack$1$adapted(TournamentParser.scala:117)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.util.Either.flatMap(Either.scala:352)[0m
-[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.unpack(TournamentParser.scala:142)[0m
-[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.$anonfun$go$1(TournamentParser.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.unpack(TournamentParser.scala:117)[0m
+[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.$anonfun$go$1(TournamentParser.scala:94)[0m
 [0m[[0m[31merror[0m] [0m[0m	at scala.util.Either.flatMap(Either.scala:352)[0m
-[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.go(TournamentParser.scala:92)[0m
+[0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.TournamentParser$.go(TournamentParser.scala:94)[0m
 [0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.RockPaperScissorsCmdGame$.main(RockPaperScissorsCmdGame.scala:10)[0m
 [0m[[0m[31merror[0m] [0m[0m	at michaelxie.rockpaperscissors.RockPaperScissorsCmdGame.main(RockPaperScissorsCmdGame.scala)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m

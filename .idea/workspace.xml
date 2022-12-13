@@ -5,94 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8113040-b8ee-4c85-85e5-efa577f98b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/BiasedRandomMovePlayer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/BiasedRandomMovePlayer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/DeciderMapper.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/IndividualMatchRoundRobinTournament.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/IndividualMatchRoundRobinTournament.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/LastLosingMovePlayer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/LastLosingMovePlayer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/LastWinningMovePlayer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/LastWinningMovePlayer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/MajorityLosingMovePlayer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/MajorityLosingMovePlayer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/MajorityWinningMovePlayer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/MajorityWinningMovePlayer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/MixedTournamentSeason.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/MixedTournamentSeason.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/MultiRoundMatch.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/MultiRoundMatch.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/NestedMatchDecider.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/NestedMatchDecider.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/ParsingDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/TournamentParser.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSDecider.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSMatch.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSMove.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSOutcome.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSPlayer.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSPointsSchema.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSResultsOutput.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSTournament.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSTournamentSeason.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RPSUnbiasedRandomMove.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RandomMovePlayer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/RandomMovePlayer.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/RockPaperScissorsCmdGame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/RockPaperScissorsCmdGame.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/SingleMatchDecider.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/please_refactor/rockpaperscissors/UnbiasedRandomMove.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/UnbiasedRandomMove.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/SingleMatchDeciderTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/SingleMatchDeciderTests.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/AWins$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/AWins.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/BWins$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/BWins.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/Paper$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/Paper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSDecider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSHistoryBasedPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSHistoryBasedRandomPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSMove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSOutcome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSPlayerSeasonSummary$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSPlayerSeasonSummary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSPointsSchema$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSPointsSchema.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSRandomPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSResultsOutput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSTournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSTournamentSeason$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSTournamentSeason.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSUnbiasedRandomMove$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSUnbiasedRandomMove$SimpleRPSUnbiasedRandomMove$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSUnbiasedRandomMove$SimpleRPSUnbiasedRandomMove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/RPSUnbiasedRandomMove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/Rock$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/Rock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/Scissors$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/Scissors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/Tie$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/benjamingarrett/rockpaperscissorstools/Tie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/BiasedRandomMovePlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/DeciderMapper$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/DeciderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/IndividualMatchRoundRobinTournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/LastLosingMovePlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/LastWinningMovePlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/MajorityLosingMovePlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/MajorityWinningMovePlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/MixedTournamentSeason$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/MixedTournamentSeason.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/MultiRoundHistoryBasedMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/NestedMatchDecider$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/NestedMatchDecider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/RandomMovePlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/RockPaperScissorsCmdGame$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/RockPaperScissorsCmdGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/SingleMatchDecider$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/SingleMatchDecider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/please_refactor/rockpaperscissors/UnbiasedRandomMove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/TournamentParser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/michaelxie/rockpaperscissors/TournamentParser.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/rockpaperscissors_2.13-0.1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/rockpaperscissors_2.13-0.1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/run/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/run/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

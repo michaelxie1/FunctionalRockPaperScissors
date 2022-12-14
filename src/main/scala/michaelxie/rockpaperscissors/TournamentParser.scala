@@ -30,7 +30,17 @@ object TournamentParser {
 """
       {"tournaments": 1000,
       "roundsPerMatch": 1000,
-      "randomSeed": 12345}
+      "randomSeed": 12345,
+      "players": [
+        {
+          "name": "Last Losing 1",
+          "type": "LastLosingMovePlayer"
+        },
+        {
+          "name": "Last Losing 2",
+          "type": "LastLosingMovePlayer",
+        }]
+      }
       """
    /* ""//json objects keys are always strings
        {
@@ -98,7 +108,7 @@ object TournamentParser {
       tournaments: Int ,
       roundsPerMatch: Int,
       randomSeed: Int,
-      /*players: List[String]*/)
+      players: List[String])
 
   def unpackList(c: List[JSON], r: Either[ParseError,List[String]]): Either[ParseError,List[String]] =
     c match {
@@ -115,9 +125,9 @@ object TournamentParser {
         for {
           tournaments <- unpackNumber(jObject, "tournaments")
           roundsPerMatch <- unpackNumber(jObject, "roundsPerMatch")
-          randomSeed <- unpackNumber(jObject, "randomSeed")/*
-          players <- unpackArray(jObject, "Players")*/
-        } yield SampleTournament(tournaments,roundsPerMatch, randomSeed/*, players*/)
+          randomSeed <- unpackNumber(jObject, "randomSeed")
+          players <- unpackArray(jObject, "Players")/**/
+        } yield SampleTournament(tournaments,roundsPerMatch, randomSeed, players)
       case _ => Left(ParseError(List((Location("Could not unpack JSON contents"),"Could not unpack JSON contents"))))
     }
 

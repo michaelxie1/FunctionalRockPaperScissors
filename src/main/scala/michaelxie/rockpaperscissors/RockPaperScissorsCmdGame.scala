@@ -8,14 +8,14 @@ object RockPaperScissorsCmdGame {
   def main(args: Array[String]) = {
 
     TournamentParser.go
-    /*greeting
+    greeting
     print("Enter 1 for live game play. Enter 2 for automatic tournament season: ")
     readLine() match {
       case "1" => liveGamePlay
       case "2" => handleTournamentSeason
       case _ => println("Response not understood.")
     }
-    goodbye*/
+    goodbye
 
 
   }

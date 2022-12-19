@@ -109,6 +109,10 @@ object TournamentParser {
       roundsPerMatch: Int,
       randomSeed: Int,
       players: List[String])
+      /* Code meant to be implemented to run through players:- couldn't run:
+
+      ,name: String,
+      `type`: String,*/
 
   def unpackList(c: List[JSON], r: Either[ParseError,List[String]]): Either[ParseError,List[String]] =
     c match {
@@ -126,10 +130,31 @@ object TournamentParser {
           tournaments <- unpackNumber(jObject, "tournaments")
           roundsPerMatch <- unpackNumber(jObject, "roundsPerMatch")
           randomSeed <- unpackNumber(jObject, "randomSeed")
-          players <- unpackArray(jObject, "Players")/**/
+          players <- unpackArray(jObject, "players")/*
+          for loop here and go through each of the elements in the array
+          for {
+          name <- unpackString(jObject, "name")
+          `type` <- unpackString(jObject, "type")
+          weights <- unpackArray(jObject, "weights")
+            for (val choice <- weights ){
+              choice <- unpackDouble(jObject, "rock")
+              choice <- unpackDouble(jObject, "paper")
+              choice <- unpackDouble(jObject, "scissors")
+
+            }
+        }*/
         } yield SampleTournament(tournaments,roundsPerMatch, randomSeed, players)
       case _ => Left(ParseError(List((Location("Could not unpack JSON contents"),"Could not unpack JSON contents"))))
     }
+
+  /*
+  def unpackDouble(jObject: JObject, key: String): Either[ParseError, Double] = jObject.get(key) match {
+    case jNumber: JNumber => Right(jNumber.get.toDouble)
+    case _ => Left(ParseError(List((Location("Could not unpack number"), "ticker"))))
+  }
+  *
+  *
+  * */
 
   def unpackString(jObject: JObject, key: String): Either[ParseError,String] = jObject.get(key) match {
     case jString: JString => Right(jString.get)
